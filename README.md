@@ -33,6 +33,11 @@ I design and build web applications, back-office tools and REST APIs. I have 5 y
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
+![PHPUnit](https://img.shields.io/badge/PHPUnit-366488?style=flat&logo=php&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
 
 | Area | Technologies |
 | --- | --- |
@@ -40,19 +45,29 @@ I design and build web applications, back-office tools and REST APIs. I have 5 y
 | Frontend | React, Next.js, TypeScript, JavaScript, Vue.js, Tailwind CSS, Bootstrap |
 | Databases | MySQL, PostgreSQL, MongoDB, SQL Server, Redis |
 | Mobile | Flutter, Dart, React Native |
-| Tests & delivery | PHPUnit, Pest, Jest, Docker, CI/CD, Git, GitHub, Linux |
+| Testing | PHPUnit, Pest, Jest, feature and API tests |
+| CI/CD & deployment | GitHub Actions, Docker, Kubernetes, Linux servers, Nginx |
+| Workflow | Git, GitHub, feature branches, code review, Agile/Scrum |
+
+## How I ship
+
+- **CI/CD with GitHub Actions:** every push runs the tests (PHPUnit / Pest, Jest), type checks and the build; deployment runs only after the checks pass.
+- **Containers:** Laravel and Node.js apps packaged with Docker, orchestrated with Kubernetes on Linux servers.
+- **Deployment & hosting:** apps and back-offices deployed on Linux servers (Nginx, PHP-FPM, Node.js), with environment config kept out of the code and dependency caching in the pipeline.
+- **Mobile releases:** Flutter and React Native builds signed and published on Google Play and the App Store.
+- **Team workflow:** one branch per feature, merged into `main` after review and tests.
 
 ## Selected work
 
-- **Web-to-print platform** (Havet Digital) — print-shop customers prepare and edit their designs online, then send them straight to production. The back-office covers the admin process, from quotes through invoicing and payment.
-- **IA CRM** (Havet Digital) — an AI-assisted tool for segmentation, mailing and prospecting.
+- **Web-to-print platform** (iaweb.dev) — print-shop customers prepare and edit their designs online, then send them straight to production. The back-office covers the admin process, from quotes through invoicing and payment.
+- **IA CRM** (iaweb.dev) — an AI-assisted tool for segmentation, mailing and prospecting.
 - **Mobile apps** (HESTIA CONSEILS) — Flutter and React Native apps, from mockup to publication on Google Play and the App Store, connected to Laravel and Node.js REST APIs.
 - **[Klykin](https://klykin.com)** — salon booking platform.
 - **[ImmoKom](https://immokom.com)** — real-estate platform with an affiliate system.
 
 ## Experience
 
-- **Havet Digital** — Full Stack Developer (December 2023 – Present), Marrakech
+- **iaweb.dev** — Full Stack Developer (December 2023 – Present), Marrakech
 - **HESTIA CONSEILS** — Full Stack Developer (February 2022 – November 2023), Remote / Rabat
 - **Morchid Engineering** — Full Stack Developer (June 2021 – January 2022), Casablanca
 
